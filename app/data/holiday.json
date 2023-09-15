@@ -1,0 +1,1741 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p33sun3t2qm7820o\"",
+ "summary": "日本の祝日",
+ "description": "日本の祝日と行事",
+ "updated": "2023-09-02T09:45:39.000Z",
+ "timeZone": "Asia/Seoul",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CMCtnZ7Si4EDENDw=",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932839570000\"",
+   "id": "20220503_a0da9j29p0n9vk2h20h4ffj1c0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:26:59.000Z",
+   "updated": "2021-08-26T08:26:59.785Z",
+   "summary": "憲法記念日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-05-03"
+   },
+   "end": {
+    "date": "2022-05-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220503_a0da@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932839570000\"",
+   "id": "20220718_l42og6v",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=2",
+   "created": "2021-08-26T08:26:59.000Z",
+   "updated": "2021-08-26T08:26:59.785Z",
+   "summary": "海の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-07-18"
+   },
+   "end": {
+    "date": "2022-07-19"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220718_l42@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932843422000\"",
+   "id": "20220110_8hm98338np5je10q4lg32grknc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=",
+   "created": "2021-08-26T08:27:01.000Z",
+   "updated": "2021-08-26T08:27:01.711Z",
+   "summary": "成人の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-01-10"
+   },
+   "end": {
+    "date": "2022-01-11"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220110_8hm98338np5je10q4lg32grknc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932843422000\"",
+   "id": "20220321_caajgk0valuvojnagl7s5aih8s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=",
+   "created": "2021-08-26T08:27:01.000Z",
+   "updated": "2021-08-26T08:27:01.711Z",
+   "summary": "春分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-03-21"
+   },
+   "end": {
+    "date": "2022-03-22"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220321_caajgk0valuvojnagl7s5aih8s@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932843422000\"",
+   "id": "20220429_lprr1l0ach8f9i2qfh2s8ln9f0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=",
+   "created": "2021-08-26T08:27:01.000Z",
+   "updated": "2021-08-26T08:27:01.711Z",
+   "summary": "昭和の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-04-29"
+   },
+   "end": {
+    "date": "2022-04-30"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220429_lprr1l0ach8f9i2qfh2s8ln9f0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932846536000\"",
+   "id": "20220101_h4sfeluaiqtm0ushs013mai5jg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=",
+   "created": "2021-08-26T08:27:03.000Z",
+   "updated": "2021-08-26T08:27:03.268Z",
+   "summary": "元日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-01-01"
+   },
+   "end": {
+    "date": "2022-01-02"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220101_h4sfeluaiqtm0ushs013mai5jg@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932846536000\"",
+   "id": "20220211_3ms8vcdh7uph5vtdsnih20681c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjAyMTFfM21zOHZjZGg3dXBoNXZ0ZHNuaWgyMDY4MWMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:03.000Z",
+   "updated": "2021-08-26T08:27:03.268Z",
+   "summary": "建国記念の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-02-11"
+   },
+   "end": {
+    "date": "2022-02-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220211_3ms8vcdh7uph5vtdsnih20681c@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932846536000\"",
+   "id": "20220505_rba3iuj84io4h4dolbrb1mnagc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjA1MDVfcmJhM2l1ajg0aW80aDRkb2xicmIxbW5hZ2MgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:03.000Z",
+   "updated": "2021-08-26T08:27:03.268Z",
+   "summary": "こどもの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-05-05"
+   },
+   "end": {
+    "date": "2022-05-06"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220505_rba3iuj84io4h4dolbrb1mnagc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932846536000\"",
+   "id": "20220811_9osiohikhipvbcpgrn9phmlnbs",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjA4MTFfOW9zaW9oaWtoaXB2YmNwZ3JuOXBobWxuYnMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:03.000Z",
+   "updated": "2021-08-26T08:27:03.268Z",
+   "summary": "山の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-08-11"
+   },
+   "end": {
+    "date": "2022-08-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220811_9osiohikhipvbcpgrn9phmlnbs@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932846536000\"",
+   "id": "20220923_a4jp73qa0f65sl2ma3dilau5t8",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjA5MjNfYTRqcDczcWEwZjY1c2wybWEzZGlsYXU1dDggamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:03.000Z",
+   "updated": "2021-08-26T08:27:03.268Z",
+   "summary": "秋分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-09-23"
+   },
+   "end": {
+    "date": "2022-09-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220923_a4jp73qa0f65sl2ma3dilau5t8@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932851094000\"",
+   "id": "20220223_u18om75fohlqvtlf9rafvaifpc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjAyMjNfdTE4b203NWZvaGxxdnRsZjlyYWZ2YWlmcGMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:05.000Z",
+   "updated": "2021-08-26T08:27:05.547Z",
+   "summary": "天皇誕生日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-02-23"
+   },
+   "end": {
+    "date": "2022-02-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220223_u18om75fohlqvtlf9rafvaifpc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932851094000\"",
+   "id": "20220504_ce7uddrqifvhi3ocdsdlclf59o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjA1MDRfY2U3dWRkcnFpZnZoaTNvY2RzZGxjbGY1OW8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:05.000Z",
+   "updated": "2021-08-26T08:27:05.547Z",
+   "summary": "みどりの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-05-04"
+   },
+   "end": {
+    "date": "2022-05-05"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220504_ce7uddrqifvhi3ocdsdlclf59o@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3259932851094000\"",
+   "id": "20220919_voaohptv6tsqhfcl9kl7hclgps",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjA5MTlfdm9hb2hwdHY2dHNxaGZjbDlrbDdoY2xncHMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2021-08-26T08:27:05.000Z",
+   "updated": "2021-08-26T08:27:05.547Z",
+   "summary": "敬老の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-09-19"
+   },
+   "end": {
+    "date": "2022-09-20"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20220919_voaohptv6tsqhfcl9kl7hclgps@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20221010_gkr44usrt876i886uv1r5d9880",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjEwMTBfZ2tyNDR1c3J0ODc2aTg4NnV2MXI1ZDk4ODAgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "スポーツの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-10-10"
+   },
+   "end": {
+    "date": "2022-10-11"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20221010_gkr44usrt876i886uv1r5d9880@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20221103_ijj1gha50k14vv1jbeit27ro34",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjExMDNfaWpqMWdoYTUwazE0dnYxamJlaXQyN3JvMzQgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "文化の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-11-03"
+   },
+   "end": {
+    "date": "2022-11-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20221103_ijj1gha50k14vv1jbeit27ro34@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20221123_j9vl8tp0i9qvsiukc3poclrkkg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMjExMjNfajl2bDh0cDBpOXF2c2l1a2MzcG9jbHJra2cgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "勤労感謝の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2022-11-23"
+   },
+   "end": {
+    "date": "2022-11-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20221123_j9vl8tp0i9qvsiukc3poclrkkg@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230101_bi9rgohetsotqlilg2ou523bh8",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAxMDFfYmk5cmdvaGV0c290cWxpbGcyb3U1MjNiaDggamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "元日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-01-01"
+   },
+   "end": {
+    "date": "2023-01-02"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230101_bi9rgohetsotqlilg2ou523bh8@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230102_813p096i4p0j0dmvdt2dh356ns",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAxMDJfODEzcDA5Nmk0cDBqMGRtdmR0MmRoMzU2bnMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "休日 元日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-01-02"
+   },
+   "end": {
+    "date": "2023-01-03"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230102_813p096i4p0j0dmvdt2dh356ns@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230109_vin9tgflla6ljt1fm3lgfgpda0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAxMDlfdmluOXRnZmxsYTZsanQxZm0zbGdmZ3BkYTAgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "成人の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-01-09"
+   },
+   "end": {
+    "date": "2023-01-10"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230109_vin9tgflla6ljt1fm3lgfgpda0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230211_2vt6ln1cpnemfs03r33oc8sa70",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAyMTFfMnZ0NmxuMWNwbmVtZnMwM3IzM29jOHNhNzAgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "建国記念の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-02-11"
+   },
+   "end": {
+    "date": "2023-02-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230211_2vt6ln1cpnemfs03r33oc8sa70@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230223_cc4eqg0jaultfov0bd4onpn784",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAyMjNfY2M0ZXFnMGphdWx0Zm92MGJkNG9ucG43ODQgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "天皇誕生日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-02-23"
+   },
+   "end": {
+    "date": "2023-02-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230223_cc4eqg0jaultfov0bd4onpn784@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230321_c41ickqkm3jc72s49uk7dpsuk0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzAzMjFfYzQxaWNrcWttM2pjNzJzNDl1azdkcHN1azAgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "春分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-03-21"
+   },
+   "end": {
+    "date": "2023-03-22"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230321_c41ickqkm3jc72s49uk7dpsuk0@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230429_oqrr87nldrl3vtr8re6tre2atk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA0Mjlfb3Fycjg3bmxkcmwzdnRyOHJlNnRyZTJhdGsgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "昭和の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-04-29"
+   },
+   "end": {
+    "date": "2023-04-30"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230429_oqrr87nldrl3vtr8re6tre2atk@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230503_rt8ck1ona7pg0po9l3m0e5hcss",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA1MDNfcnQ4Y2sxb25hN3BnMHBvOWwzbTBlNWhjc3MgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "憲法記念日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-05-03"
+   },
+   "end": {
+    "date": "2023-05-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230503_rt8ck1ona7pg0po9l3m0e5hcss@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230504_0lqe9g55vjc3k4p3e1erp60qtk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA1MDRfMGxxZTlnNTV2amMzazRwM2UxZXJwNjBxdGsgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "みどりの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-05-04"
+   },
+   "end": {
+    "date": "2023-05-05"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230504_0lqe9g55vjc3k4p3e1erp60qtk@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230505_391maoa8qk8bj177kneto844rs",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA1MDVfMzkxbWFvYThxazhiajE3N2tuZXRvODQ0cnMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "こどもの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-05-05"
+   },
+   "end": {
+    "date": "2023-05-06"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230505_391maoa8qk8bj177kneto844rs@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230717_0ecj0oltetalooc0m4mjft4pus",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA3MTdfMGVjajBvbHRldGFsb29jMG00bWpmdDRwdXMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "海の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-07-17"
+   },
+   "end": {
+    "date": "2023-07-18"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230717_0ecj0oltetalooc0m4mjft4pus@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230811_c020h2iebv4h66dmt7f6i97t20",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA4MTFfYzAyMGgyaWVidjRoNjZkbXQ3ZjZpOTd0MjAgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "山の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-08-11"
+   },
+   "end": {
+    "date": "2023-08-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230811_c020h2iebv4h66dmt7f6i97t20@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230918_410nl1e9q4u7mb7pl064sdej5g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA5MThfNDEwbmwxZTlxNHU3bWI3cGwwNjRzZGVqNWcgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "敬老の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-09-18"
+   },
+   "end": {
+    "date": "2023-09-19"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230918_410nl1e9q4u7mb7pl064sdej5g@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20230923_judg7lr1m2gglj4i40qn9i7mhg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzA5MjNfanVkZzdscjFtMmdnbGo0aTQwcW45aTdtaGcgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "秋分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-09-23"
+   },
+   "end": {
+    "date": "2023-09-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20230923_judg7lr1m2gglj4i40qn9i7mhg@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20231009_irbln7n3car55hoi8mu58b019s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzEwMDlfaXJibG43bjNjYXI1NWhvaThtdTU4YjAxOXMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "スポーツの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-10-09"
+   },
+   "end": {
+    "date": "2023-10-10"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20231009_irbln7n3car55hoi8mu58b019s@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20231103_fjl9hen54kuf14u3av6enmpb7k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzExMDNfZmpsOWhlbjU0a3VmMTR1M2F2NmVubXBiN2sgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "文化の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-11-03"
+   },
+   "end": {
+    "date": "2023-11-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20231103_fjl9hen54kuf14u3av6enmpb7k@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20231123_r5q8sg3et6f2rmngsnt7nck758",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyMzExMjNfcjVxOHNnM2V0NmYycm1uZ3NudDduY2s3NTggamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "勤労感謝の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2023-11-23"
+   },
+   "end": {
+    "date": "2023-11-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20231123_r5q8sg3et6f2rmngsnt7nck758@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240101_7vfl248hrpseh9jcqil60603lg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAxMDFfN3ZmbDI0OGhycHNlaDlqY3FpbDYwNjAzbGcgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "元日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-01-01"
+   },
+   "end": {
+    "date": "2024-01-02"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240101_7vfl248hrpseh9jcqil60603lg@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240108_u9tleo5b5sbqals5s53b0pg55o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAxMDhfdTl0bGVvNWI1c2JxYWxzNXM1M2IwcGc1NW8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "成人の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-01-08"
+   },
+   "end": {
+    "date": "2024-01-09"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240108_u9tleo5b5sbqals5s53b0pg55o@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240211_4hidj745g0mnnnktlvo9ioo5h4",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAyMTFfNGhpZGo3NDVnMG1ubm5rdGx2bzlpb281aDQgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "建国記念の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-02-11"
+   },
+   "end": {
+    "date": "2024-02-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240211_4hidj745g0mnnnktlvo9ioo5h4@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240212_ro5mfadsk4d6d6qju9rebmhgoo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAyMTJfcm81bWZhZHNrNGQ2ZDZxanU5cmVibWhnb28gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "建国記念の日 振替休日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-02-12"
+   },
+   "end": {
+    "date": "2024-02-13"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240212_ro5mfadsk4d6d6qju9rebmhgoo@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240223_ahg3ihm85q1rfj8cv90hu8kd5c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAyMjNfYWhnM2lobTg1cTFyZmo4Y3Y5MGh1OGtkNWMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "天皇誕生日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-02-23"
+   },
+   "end": {
+    "date": "2024-02-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240223_ahg3ihm85q1rfj8cv90hu8kd5c@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240320_91ka3n3bfvqrcjtrh3q0v7u4tk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDAzMjBfOTFrYTNuM2JmdnFyY2p0cmgzcTB2N3U0dGsgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "春分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-03-20"
+   },
+   "end": {
+    "date": "2024-03-21"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240320_91ka3n3bfvqrcjtrh3q0v7u4tk@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240429_ssl0345vgbmc5cdehjo1gopdmo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA0Mjlfc3NsMDM0NXZnYm1jNWNkZWhqbzFnb3BkbW8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "昭和の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-04-29"
+   },
+   "end": {
+    "date": "2024-04-30"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240429_ssl0345vgbmc5cdehjo1gopdmo@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240503_7ocjp3hq6r3bs4enofj02sid0o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA1MDNfN29janAzaHE2cjNiczRlbm9majAyc2lkMG8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "憲法記念日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-05-03"
+   },
+   "end": {
+    "date": "2024-05-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240503_7ocjp3hq6r3bs4enofj02sid0o@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240504_nt1r0ump08nehuotoo98cbuqfs",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA1MDRfbnQxcjB1bXAwOG5laHVvdG9vOThjYnVxZnMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "みどりの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-05-04"
+   },
+   "end": {
+    "date": "2024-05-05"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240504_nt1r0ump08nehuotoo98cbuqfs@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240505_tk10n4mbhtstm9hso7gf8aqcao",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA1MDVfdGsxMG40bWJodHN0bTloc283Z2Y4YXFjYW8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "こどもの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-05-05"
+   },
+   "end": {
+    "date": "2024-05-06"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240505_tk10n4mbhtstm9hso7gf8aqcao@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240506_horeip0r6nei7llt3po0rnvoqo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA1MDZfaG9yZWlwMHI2bmVpN2xsdDNwbzBybnZvcW8gamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "こどもの日 振替休日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-05-06"
+   },
+   "end": {
+    "date": "2024-05-07"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240506_horeip0r6nei7llt3po0rnvoqo@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240715_gcju36ic7obn5n0bctoboj0a3k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA3MTVfZ2NqdTM2aWM3b2JuNW4wYmN0b2JvajBhM2sgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "海の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-07-15"
+   },
+   "end": {
+    "date": "2024-07-16"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240715_gcju36ic7obn5n0bctoboj0a3k@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240811_qr548sg21q7vqq7kvo6c111ops",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA4MTFfcXI1NDhzZzIxcTd2cXE3a3ZvNmMxMTFvcHMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "山の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-08-11"
+   },
+   "end": {
+    "date": "2024-08-12"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240811_qr548sg21q7vqq7kvo6c111ops@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240812_33dcl987imhasb4d3rj1j3liug",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA4MTJfMzNkY2w5ODdpbWhhc2I0ZDNyajFqM2xpdWcgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "休日 山の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-08-12"
+   },
+   "end": {
+    "date": "2024-08-13"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240812_33dcl987imhasb4d3rj1j3liug@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240916_007rou85viekkv2k13f2528utc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA5MTZfMDA3cm91ODV2aWVra3YyazEzZjI1Mjh1dGMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "敬老の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-09-16"
+   },
+   "end": {
+    "date": "2024-09-17"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240916_007rou85viekkv2k13f2528utc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240922_8h1hgqeq4cd8ag6ate23jt9q64",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA5MjJfOGgxaGdxZXE0Y2Q4YWc2YXRlMjNqdDlxNjQgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "秋分の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-09-22"
+   },
+   "end": {
+    "date": "2024-09-23"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240922_8h1hgqeq4cd8ag6ate23jt9q64@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20240923_1phfmrt6k7jjcr1d5lbv7550uc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDA5MjNfMXBoZm1ydDZrN2pqY3IxZDVsYnY3NTUwdWMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "秋分の日 振替休日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-09-23"
+   },
+   "end": {
+    "date": "2024-09-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20240923_1phfmrt6k7jjcr1d5lbv7550uc@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20241014_1jpi7tmdvrprehccfcv7dutmms",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDEwMTRfMWpwaTd0bWR2cnByZWhjY2ZjdjdkdXRtbXMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "スポーツの日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-10-14"
+   },
+   "end": {
+    "date": "2024-10-15"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20241014_1jpi7tmdvrprehccfcv7dutmms@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20241103_l53f4vijmflt8bepoh899tdhmk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDExMDNfbDUzZjR2aWptZmx0OGJlcG9oODk5dGRobWsgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "文化の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-11-03"
+   },
+   "end": {
+    "date": "2024-11-04"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20241103_l53f4vijmflt8bepoh899tdhmk@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20241104_e565h18h0a47cqha61856sqha8",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDExMDRfZTU2NWgxOGgwYTQ3Y3FoYTYxODU2c3FoYTggamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "文化の日 振替休日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-11-04"
+   },
+   "end": {
+    "date": "2024-11-05"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20241104_e565h18h0a47cqha61856sqha8@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"3328551636990000\"",
+   "id": "20241123_uu24mo9ng8kpvljvu67cmim8ms",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MjAyNDExMjNfdXUyNG1vOW5nOGtwdmxqdnU2N2NtaW04bXMgamEuamFwYW5lc2UjaG9saWRheUB2",
+   "created": "2022-09-27T10:50:18.000Z",
+   "updated": "2022-09-27T10:50:18.495Z",
+   "summary": "勤労感謝の日",
+   "description": "祝日",
+   "creator": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "organizer": {
+    "email": "ja.japanese#holiday@group.v.calendar.google.com",
+    "displayName": "日本の祝日",
+    "self": true
+   },
+   "start": {
+    "date": "2024-11-23"
+   },
+   "end": {
+    "date": "2024-11-24"
+   },
+   "transparency": "transparent",
+   "visibility": "public",
+   "iCalUID": "20241123_uu24mo9ng8kpvljvu67cmim8ms@google.com",
+   "sequence": 0,
+   "eventType": "default"
+  }
+ ]
+}

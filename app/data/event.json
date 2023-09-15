@@ -1,0 +1,47 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p33820o\"",
+ "summary": "エージェント",
+ "description": "",
+ "updated": "2023-09-03T14:42:46.060Z",
+ "timeZone": "Asia/Seoul",
+ "accessRole": "owner",
+ "defaultReminders": [],
+ "nextSyncToken": "COCfyHWjoEDGAUgoIy1iwI=",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"3387504330854000\"",
+   "id": "10tfqu01rbhs7n3p43srh3tu79",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=M3R1NzkgMmJhNzQzN2IwMjZhMGFlM2Y3NzQ2MTdhNGY4YzgwZTgwNWIyYzY1ZjYzY2I4OWYwZWM3NDU5M2Y3MTAxNzU1M0Bn",
+   "created": "2023-09-03T14:15:52.000Z",
+   "updated": "2023-09-03T14:42:45.427Z",
+   "summary": "A社一次面接",
+   "description": "日程：2023/09/04(月) 18:00-19:00（JST）\u003cbr\u003e接続：\u003ca href=\"https://app.harutaka.jp/live_interview/213969323d76\"\u003ehttps://app.harutaka.jp/live_interview/2x\u003c/a\u003exxxxxxxxx1\u003cbr\u003e担当：hoge\u003cbr\u003e└参考Interview：\u003ca href=\"https://note.com/sunasterisk/n/n7d2e95f5cda6?magazine_key=m491f10dc026c\"\u003ehttps://note.com/xxxxxxxxx/n/n7d2e95f5cda6?magazine_key=x\u003c/a\u003exxxxxxxxxxx\u003cbr\u003e緊急連絡先：080-xxxx-xxxx（担当：hoge）",
+   "creator": {
+    "email": "chg3376@gmail.com"
+   },
+   "organizer": {
+    "email": "2ba7437b026a0ae3f774617a4f8c8@group.calendar.google.com",
+    "displayName": "エージェント",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2023-09-04T18:00:00+09:00",
+    "timeZone": "Asia/Seoul"
+   },
+   "end": {
+    "dateTime": "2023-09-04T19:00:00+09:00",
+    "timeZone": "Asia/Seoul"
+   },
+   "transparency": "transparent",
+   "iCalUID": "179@google.com",
+   "sequence": 1,
+   "reminders": {
+    "useDefault": false
+   },
+   "eventType": "default"
+  }
+ ]
+}
