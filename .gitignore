@@ -35,3 +35,9 @@ yarn-error.log*
 next-env.d.ts
 /package-lock.json
 /yarn.lock
+/.idea/.gitignore
+/.idea/calendar-of-job-change-fe-next.iml
+/.idea/git_toolbox_prj.xml
+/.idea/GitLink.xml
+/.idea/modules.xml
+/.idea/vcs.xml
