@@ -1,10 +1,20 @@
 "use client"
 import AgentRadioGroup from "./AgentRadioGroup";
+import {Dispatch, SetStateAction, useEffect, useState} from "react";
+import {GetDatabaseResponse} from "@notionhq/client/build/src/api-endpoints";
 
 const AgentArea = () => {
+  const [event, setEvent]: any = useState({ content: { results: [] } })
+  useEffect(() => {
+    (async() => {
+      // let res: Response = await fetch("/api/20220628/notion/database?databaseId=f8da8a72259649c0a0754dfa695fd09b", {method: "POST"})
+      // let result:GetDatabaseResponse = await res.json()
+      // setEvent(result)
+    })()
+  })
 
   return (
-    <div className="text-white w-full px-2 py-1 bg-black">
+    <div className="w-full px-2 py-1">
       <div>
         転職状況
       </div>
@@ -63,3 +73,4 @@ const AgentArea = () => {
 }
 
 export default AgentArea
+
