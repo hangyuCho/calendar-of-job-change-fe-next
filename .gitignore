@@ -116,3 +116,4 @@ next-env.d.ts
 /.idea/sonarlint/securityhotspotstore/f/c/fc22a92be0a1d67e0530da4c43f62fc58ddfd472
 /.idea/sonarlint/securityhotspotstore/index.pb
 /.idea/JetClient/settings.xml
+pnpm-lock.yaml
