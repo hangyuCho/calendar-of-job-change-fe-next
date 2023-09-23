@@ -56,12 +56,12 @@ const colorSet: Array<string> = [
 
 export default function AgentRadioGroup() {
     const [selected, setSelected] = useState(agentRadioGroups[0])
-    const [event, setEvent]: any = useState({ content: { results: [] } })
+    const [agentList, setAgentList]: any = useState({ content: { results: [] } })
     useEffect(() => {
         (async() => {
-            let res: Response = await fetch("/api/20220628/notion/agent-list?databaseId=1e2995942f584766b1dd6e69a3276858", {method: "POST"})
+            let res: Response = await fetch("/api/20220628/notion/agent-list", {method: "POST"})
             let result:GetDatabaseResponse = await res.json()
-            setEvent(result)
+            setAgentList(result)
         })()
     },[])
     return (
@@ -69,13 +69,13 @@ export default function AgentRadioGroup() {
             <div className="mx-auto w-full max-w-md">
                 {/*
                 <pre>
-                    {JSON.stringify(event.content.results.slice(0,1),null,2)}
+                    {JSON.stringify(agentList.content.results.slice(0,1),null,2)}
                 </pre>
                 */}
                 <RadioGroup value={selected} onChange={setSelected}>
                     <RadioGroup.Label className="sr-only">Server size</RadioGroup.Label>
                     <div className="space-y-2">
-                        {event.content.results.map((plan:AgentRadioGroupProps, i:number) => (
+                        {agentList.content.results.map((plan:AgentRadioGroupProps, i:number) => (
                             <RadioGroup.Option
                                 key={i}
                                 value={plan}
@@ -88,7 +88,7 @@ export default function AgentRadioGroup() {
                                       ${
                                         checked ? 'bg-sky-900 bg-opacity-75 text-white' : 'bg-white'
                                         }
-                    relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none`
+                                        relative flex cursor-pointer rounded-lg px-5 py-4 shadow-md focus:outline-none`
                                 }
                             >
                                 {({ active, checked }) => (
