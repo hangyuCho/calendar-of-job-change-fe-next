@@ -60,7 +60,7 @@ export default function AgentRadioGroup() {
     useEffect(() => {
         (async() => {
             let res: Response = await fetch("/api/20220628/notion/agent-list", {method: "POST"})
-            let result:GetDatabaseResponse = await res.json()
+            let result:Array<AgentRadioGroupProps> = await res.json()
             setAgentList(result)
         })()
     },[])

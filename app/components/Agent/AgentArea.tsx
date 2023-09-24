@@ -1,16 +1,31 @@
 "use client"
 import AgentRadioGroup from "./AgentRadioGroup";
 import {useEffect, useState} from "react";
+import {groupBy} from "@/app/utils";
+import {getBlock} from "@/app/utils/notionUtils";
+
+interface EventStatusProps {
+  name: { id: string, type: string, title: Array<any>}
+  agentPicMaster: Array<string>
+  clientCompanyMaster: Array<string>
+  scheduleAt: any,
+  meetingCategory: Array<string>,
+  clientCompany: Array<string>,
+  jobChangeProcess: Array<string>,
+  link: { id: string, type: string, date: { start: Date | null, end: Date | null, time_zone: string | null}}
+}
 
 const AgentArea = () => {
   const [event, setEvent]: any = useState({ content: { results: [] } })
   useEffect(() => {
     (async() => {
-      // let res: Response = await fetch("/api/20220628/notion/database?databaseId=f8da8a72259649c0a0754dfa695fd09b", {method: "POST"})
-      // let result:GetDatabaseResponse = await res.json()
-      // setEvent(result)
+      let res: Response = await fetch("/api/20220628/notion/event-status-list", {method: "POST"})
+      let result = await res.json()
+      result = groupBy(result.content.results, (eventStatus:EventStatusProps) => eventStatus.clientCompany)
+      console.log(result)
+      setEvent(result)
     })()
-  })
+  },[])
 
   return (
     <div className="w-full px-2 py-1">
@@ -18,6 +33,9 @@ const AgentArea = () => {
         転職状況
       </div>
       <AgentRadioGroup />
+      <pre>
+        {JSON.stringify(event,null,2)}
+      </pre>
       <table className="w-full text-sm text-left text-gray-400">
         <thead className="text-xs uppercase bg-indigo-400 text-gray-900">
         <tr>

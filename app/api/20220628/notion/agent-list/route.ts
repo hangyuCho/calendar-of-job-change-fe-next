@@ -1,5 +1,6 @@
 import {
-    getBlock, getBlocks,
+    delay,
+    getBlock,
     getDatabases
 } from "@/app/utils/notionUtils";
 import {
@@ -10,9 +11,15 @@ import {
 import {NextResponse} from "next/server";
 
 export const POST = async() => {
-    let databaseInfo: QueryDatabaseResponse = await getDatabases().query({
-        database_id: "f8da8a72259649c0a0754dfa695fd09b",
-    })
+    let databaseInfo: QueryDatabaseResponse
+    try {
+        databaseInfo = await getDatabases().query({
+            database_id: "1e2995942f584766b1dd6e69a3276858",
+        })
+    } catch (e) {
+        console.error("notion api error from get databases: ", e)
+        return
+    }
     let rows = databaseInfo.results.map(async (it: (PageObjectResponse | PartialPageObjectResponse | PartialDatabaseObjectResponse | DatabaseObjectResponse)) => {
         const {
             name,
@@ -20,17 +27,14 @@ export const POST = async() => {
             client_company_master
         } = (it as PageObjectResponse).properties
 
-        const getBlock = (column: any) => {
-            const {relation} = column
-
-            return relation.map(async(relation: { id: string })=>
-                ((await getBlocks().retrieve({ block_id: relation.id })) as any).child_page.title)
-        }
-
+        let agentPicMaster = await Promise.all(getBlock(agent_pic_master))
+        await delay()
+        let clientCompanyMaster = await Promise.all(getBlock(client_company_master))
+        await delay()
         return {
             name: name,
-            agentPicMaster: await Promise.all(getBlock(agent_pic_master)),
-            clientCompanyMaster: await Promise.all(getBlock(client_company_master))
+            agentPicMaster: agentPicMaster,
+            clientCompanyMaster: clientCompanyMaster
         }
     })
     return NextResponse.json({ content: { results: [...await Promise.all(rows)] } })

@@ -20,9 +20,23 @@ const getEventItem = (targetDate: Date) => {
           .find(el => isEqualDate(new Date(el.start.dateTime), targetDate))
 }
 
+function groupBy<K, V> (list: Array<V>, keyGetter: (input: V) => K) {
+  const map = new Map<K, Array<V>>()
+  list.forEach((item) => {
+    const key = keyGetter(item)
+    const collection = map.get(key)
+    if(!collection) {
+      map.set(key, [item])
+    } else {
+      collection.push(item)
+    }
+  })
+  return map
+}
 
 export {
   isEqualDate,
   getHolidayItem,
-  getEventItem
+  getEventItem,
+  groupBy
 }

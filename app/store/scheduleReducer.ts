@@ -6,7 +6,6 @@ const scheduleSlice:Slice = createSlice({
   initialState: { time: 0 },
   reducers: {
     selectedSchedule: (state, action:PayloadAction<number | null>) => {
-      console.log(action.payload)
       state.time = action.payload
     }
   }
