@@ -25,7 +25,7 @@ const Top = (props:PropsWithChildren) => {
                             <div>
                                 <button type="button" className="flex text-sm bg-gray-800 rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
                                     <span className="sr-only">Open user menu</span>
-                                    <Image className="w-8 h-8 rounded-full" src="inu.jpg" alt="user photo"></Image>
+                                    <Image className="w-8 h-8 rounded-full" src="/inu.jpg" alt="user photo" width={32} height={32}></Image>
                                 </button>
                             </div>
                             <div className="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
