@@ -19,8 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressContentEditableWarning={true}>
     <head>
-      <title>Han's Calendar</title>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+      <title>Han&apso;s Calendar</title>
     </head>
     {/*<body className={inter.className}>*/}
         <body className="bg-gray-300">
