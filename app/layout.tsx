@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import { Top } from "@/app/components/Layout"
 import React from "react";
 
-const inter = Inter({ subsets: ['latin'] })
+//const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,11 +18,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressContentEditableWarning={true}>
-          <body className={inter.className}>
-              <Top >
-                  {children}
-              </Top>
-          </body>
+    <head>
+      <title>Han's Calendar</title>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    </head>
+    {/*<body className={inter.className}>*/}
+        <body className="bg-gray-300">
+          <Top >
+              {children}
+          </Top>
+      </body>
     </html>
   )
 }

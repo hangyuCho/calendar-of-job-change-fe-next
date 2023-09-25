@@ -8,7 +8,7 @@ import AgentArea from "@/app/components/Agent/AgentArea";
 const Home = () => {
   return (
       <Provider store={store}>
-        <main className="flex h-screen">
+        <main className="flex flex-col gap-3 h-screen">
             <Calendar />
             <AgentArea />
         </main>

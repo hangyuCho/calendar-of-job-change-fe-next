@@ -90,7 +90,7 @@ const CalendarRowByDays = ({currentDate}: CalendarRowByDaysProps) => {
       )
     }
     return (
-      <div className="flex h-16" key={index??0}>
+      <div className="flex h-32" key={index??0}>
         { columns.map((column) => column) }
       </div>
     )

@@ -29,12 +29,20 @@ const Calendar = () => {
   const eventItem = getEventItem(selectedDateByTime)
 
   return (
-    <div className="flex flex-col justify-start text-gray-800">
-      <div className="flex flex-col justify-start w-[375px] h-[667px] bg-gray-50 overflow-scroll">
+    <div className="flex justify-start text-gray-800 w-full">
+      {/*<div className="flex flex-col justify-start w-[375px] h-[667px] bg-gray-50 overflow-scroll">*/}
+      <div className="flex flex-col justify-start w-full bg-white pb-2 rounded-lg">
         <div className="flex justify-around text-black bg-gray-100">
-          <button type="button" onClick={() => onPrevMonth() } className="px-2 py-1 text-black bg-blue-400 border rounded-md">←</button>
-          <button type="button" onClick={() => onMoveToToday() } className="px-2 py-1 text-black bg-blue-400 border rounded-md">Today</button>
-          <button type="button" onClick={() => onNextMonth() } className="px-2 py-1 text-black bg-blue-400 border rounded-md">→</button>
+          <button type="button" onClick={() => onPrevMonth() } className="flex justify-center items-center px-2 py-1 text-black bg-indigo-200 border rounded-md">
+            <span className="material-symbols-rounded"> arrow_left </span>
+          </button>
+          <button type="button" onClick={() => onMoveToToday() } className="flex justify-center items-center px-2 py-1 text-black bg-indigo-200 border rounded-md">
+            <span className="material-symbols-rounded"> location_home </span>
+            <span className="font-bold text-xs">Today</span>
+          </button>
+          <button type="button" onClick={() => onNextMonth() } className="flex justify-center items-center px-2 py-1 text-black bg-indigo-200 border rounded-md">
+           <span className="material-symbols-rounded"> arrow_right </span>
+          </button>
         </div>
         <div className="flex justify-between w-full h-32 items-center sticky top-0 after:content=[''] after:bg-gray-900 after:opacity-50 after:w-full after:absolute">
           <div>
@@ -54,44 +62,44 @@ const Calendar = () => {
           </div>
         </div>
 
-          {
-          selectedDate !== 0 ? (
-            <div className="flex flex-col mx-2">
-              <div className="flex gap-2">
-                <span> {selectedDateByTime.getFullYear()}年{selectedDateByTime.getMonth() + 1}月{selectedDateByTime.getDate()}日(水)</span>
+        {
+        selectedDate !== 0 ? (
+          <div className="flex flex-col mx-2">
+            <div className="flex gap-2">
+              <span> {selectedDateByTime.getFullYear()}年{selectedDateByTime.getMonth() + 1}月{selectedDateByTime.getDate()}日(水)</span>
+            </div>
+            <div className="flex flex-col gap-2 mt-2">
+              { holidayItem ? (
+              <div className="flex text-base">
+                <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
+                  <span className="text-base">終日</span>
+                  <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
+                  <span className="text-base">{holidayItem.summary}</span>
+                </button>
               </div>
-              <div className="flex flex-col gap-2 mt-2">
-                { holidayItem ? (
-                <div className="flex text-base">
-                  <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-blue-400 rounded-md">
-                    <span className="text-base">終日</span>
-                    <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
-                    <span className="text-base">{holidayItem.summary}</span>
-                  </button>
-                </div>
-                ) : null}
-                { eventItem ? (
-                <div className="flex text-base">
-                  <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-blue-400 rounded-md">
-                    <span className="text-base">終日</span>
-                    <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
-                    <span className="text-base">{eventItem.summary}</span>
-                  </button>
-                </div>
-                ) : null}
-                <div className="flex items-center gap-2 text-base">
-                  <button type="button" className="flex justify-start w-10/12 px-4 py-2 text-gray-100 bg-blue-400 rounded-md">
-                    <span className="text-base">+ 新しいイベント</span>
-                  </button>
-                  <button type="button" className="flex justify-center w-2/12 px-4 py-2 text-gray-100 bg-blue-400 rounded-md">
-                    <span>⚙️</span>
-                  </button>
-                </div>
+              ) : null}
+              { eventItem ? (
+              <div className="flex text-base">
+                <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
+                  <span className="text-base">終日</span>
+                  <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
+                  <span className="text-base">{eventItem.summary}</span>
+                </button>
+              </div>
+              ) : null}
+              <div className="flex items-center gap-2 text-base">
+                <button type="button" className="flex justify-start w-10/12 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
+                  <span className="text-base">+ 新しいイベント</span>
+                </button>
+                <button type="button" className="flex justify-center w-2/12 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
+                  <span>⚙️</span>
+                </button>
               </div>
             </div>
-          ) 
-          : null
-          }
+          </div>
+        )
+        : null
+        }
         <div className="hidden">
           <div className="flex h-16 rounded-md w-[14.3%] justify-center font-bold text-base"></div>
           <div className="text-black rounded-md"></div>
