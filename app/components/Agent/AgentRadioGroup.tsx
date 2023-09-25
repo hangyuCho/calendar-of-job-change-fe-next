@@ -97,6 +97,7 @@ export default function AgentRadioGroup() {
                                             <div className="flex items-center">
                                                 <div className="text-sm">
                                                     <RadioGroup.Label
+                                                        key={i}
                                                         as="p"
                                                         className={`font-xl  ${
                                                             checked ? 'text-white' : 'text-gray-900'
@@ -117,13 +118,13 @@ export default function AgentRadioGroup() {
                                                     >
                                                         <div className="flex flex-wrap">
                                                             {
-                                                                plan.clientCompanyMaster.map((companyName: string) => {
+                                                                plan.clientCompanyMaster.map((companyName: string, idx:number) => {
                                                                     let randomColor = colorSet[Math.floor(Math.random()*colorSet.length)] ?? "blue"
                                                                     return (
-                                                                        <span className={`bg-${randomColor}-100 text-${randomColor}-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded border border-${randomColor}-400 whitespace-nowrap my-1`}>
-                                                                        <span aria-hidden="true">&middot;</span>{' '}
+                                                                        <span key={idx} className={`bg-${randomColor}-100 text-${randomColor}-800 text-xs font-medium mr-2 px-2.5 py-0.5 rounded border border-${randomColor}-400 whitespace-nowrap my-1`}>
+                                                                            <span aria-hidden="true">&middot;</span>{' '}
                                                                             <span>{companyName}</span>
-                                                                    </span>
+                                                                        </span>
                                                                     )
                                                                 })
                                                             }

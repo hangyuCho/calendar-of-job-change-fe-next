@@ -1,16 +1,13 @@
 import type {
-    NextApiRequest,
     NextApiResponse
 } from "next"
 
-type ResponseData = {
-    content: string
-}
-
 const handler = (
-    req: NextApiRequest,
     res: NextApiResponse
 ) => {
-    res.status(200).json({ content: "hoge"})
+    res.status(200).json({ content: { results: [] } } )
 }
-export default handler
+export {
+    handler as GET,
+    handler as POST
+}
