@@ -65,10 +65,10 @@ const AgentArea = () => {
       <table className="block text-sm text-left text-gray-400 overflow-x-scroll">
         <thead className="text-xs uppercase bg-indigo-400 text-gray-900">
         <tr>
-          <th className="px-6 py-3 border border-gray-400" scope="col">No</th>
-          <th className="px-6 py-3 border border-gray-400" scope="col">エージェント会社</th>
-          <th className="px-6 py-3 border border-gray-400" scope="col">選考会社</th>
-          {jobChangeProcessList.map((it: JobChangeProcessProps, i:number) => (<th key={i} className="px-6 py-3 border border-gray-400" scope="col">{it.jobChangeProcessName}</th>))}
+          <th className="border border-gray-400 text-[8px] w-1" scope="col">No</th>
+          <th className="border border-gray-400 text-[8px]" scope="col">エージェント会社</th>
+          <th className="border border-gray-400 text-[8px]" scope="col">選考会社</th>
+          {jobChangeProcessList.map((it: JobChangeProcessProps, i:number) => (<th key={i} className="border border-gray-400 text-[8px]" scope="col">{it.jobChangeProcessName}</th>))}
         </tr>
         </thead>
         <tbody>
@@ -88,9 +88,11 @@ const AgentArea = () => {
 
 const AgentData = ({eventStatus, id}: AgentDataProps) => {
     return (
-        <td key={id} className="px-6 py-4 border text-[8px]">
+        <td key={id} className="border text-[8px]">
             <div className="flex flex-col justify-center items-center">
-                <input checked={true} id="green-checkbox" onChange={() => {}} type="checkbox" value="" className="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 rounded-lg focus:ring-green-500 focus:ring-2 "/>
+                <span className="flex items-center text-sm font-medium text-gray-900">
+                    <span className="flex w-2.5 h-2.5 bg-blue-600 rounded-full mr-1.5 flex-shrink-0"></span>
+                </span>
                 <div>
                     <label htmlFor="green-checkbox" className="ml-2 text-[6px] text-gray-900">({new Date(eventStatus.scheduleStartAt).toLocaleDateString("en-ZA")})</label>
                 </div>
@@ -103,9 +105,9 @@ const AgentRow = ({eventStatusList, eventStatusStepQty, rowNumber}: AgentRowProp
     let tableRows: Array<any> = []
     const { clientCompanyName } = eventStatusList[0].agentCompanyClientCompanyRelation.clientCompanyMaster
     const { agentName } = eventStatusList[0].agentCompanyClientCompanyRelation.agentCompanyMaster
-    tableRows[0] = <td key={0} scope="row" className="px-6 py-4 text-[8px] border"> {rowNumber + 1} </td>
-    tableRows[1] = <td key={1} scope="row" className="px-6 py-4 text-[8px] border"> {agentName} </td>
-    tableRows[2] = <td key={2} className="px-6 py-4 border text-[8px]"> { clientCompanyName} </td>
+    tableRows[0] = <td key={0} scope="row" className="text-[8px] border"> {rowNumber + 1} </td>
+    tableRows[1] = <td key={1} scope="row" className="text-[8px] border"> {agentName} </td>
+    tableRows[2] = <td key={2} className="border text-[8px]"> { clientCompanyName} </td>
     for (let i = 1; i <= (eventStatusStepQty) ; i++) {
         let idx = i + 2
         tableRows[idx] = <td key={idx} scope="row" className="px-6 py-4 font-medium border">-</td>
