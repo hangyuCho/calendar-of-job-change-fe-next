@@ -1,12 +1,12 @@
 
 "use client"
-import { useState } from "react"
+import {useState} from "react"
 import { CalendarRowByHead, CalendarRowByDays } from "./Calendar/index"
 import { useSelector } from "react-redux"
-import { getHolidayItem, getEventItem } from "../utils"
+import {getHolidayItem, isEqualDate} from "../utils"
+import { EventProps } from "@/app/types"
 
-const Calendar = () => {
-  
+const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
   let [currentDate, setCurrentDate] = useState(new Date())
   const selectedDate:number = useSelector((state: any) => state.schedule.time)
   let selectedDateByTime = new Date(selectedDate)
@@ -26,7 +26,7 @@ const Calendar = () => {
   }
 
   const holidayItem = getHolidayItem(selectedDateByTime)
-  const eventItem = getEventItem(selectedDateByTime)
+  const eventItem : EventProps | undefined = eventList.find((el: EventProps) => isEqualDate(new Date(el.scheduleStartAt), selectedDateByTime))
 
   return (
     <div className="flex justify-start text-gray-800 w-full">
@@ -58,7 +58,7 @@ const Calendar = () => {
         <div className="flex flex-col px-2">
           <div className="text-xs">
             <CalendarRowByHead/>
-            <CalendarRowByDays currentDate={currentDate}/>
+            <CalendarRowByDays currentDate={currentDate} eventList={eventList}/>
           </div>
         </div>
 
@@ -81,9 +81,12 @@ const Calendar = () => {
               { eventItem ? (
               <div className="flex text-base">
                 <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
-                  <span className="text-base">終日</span>
+                  <span className="text-base flex flex-col justify-start items-start">
+                    <div>{`${String(new Date(eventItem.scheduleStartAt)?.getHours()).padStart(2, "0")}:${String(new Date(eventItem.scheduleStartAt).getMinutes())?.padStart(2, "0")}`}</div>
+                    <div>{`${String(new Date(eventItem?.scheduleEndAt)?.getHours()).padStart(2, "0")}:${String(new Date(eventItem?.scheduleEndAt).getMinutes())?.padStart(2, "0")}`}</div>
+                  </span>
                   <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
-                  <span className="text-base">{eventItem.summary}</span>
+                  <span className="text-base">{`${eventItem.agentCompanyClientCompanyRelation.clientCompanyMaster.clientCompanyName} - ${eventItem.jobChangeProcess.jobChangeProcessName}`}</span>
                 </button>
               </div>
               ) : null}
