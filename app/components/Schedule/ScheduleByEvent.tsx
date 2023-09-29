@@ -1,10 +1,10 @@
 
-import {EventProps, EventScheduleProps} from "../../types"
-import {isEqualDate} from "../../utils"
+import {EventProps, EventScheduleProps} from "@/app/types"
+import {isEqualDate, toUTC} from "@/app/utils"
 
 const ScheduleByEvent = ({targetDate, eventList}:EventScheduleProps) => {
 
-  const eventItem : EventProps | undefined = eventList.find((el: EventProps) => isEqualDate(new Date(el.scheduleStartAt), targetDate))
+  const eventItem : EventProps | undefined = eventList.find((el: EventProps) => isEqualDate(toUTC(el.scheduleStartAt), targetDate))
 
   return (
     <>

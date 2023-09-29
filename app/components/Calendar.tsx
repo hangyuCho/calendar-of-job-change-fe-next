@@ -3,7 +3,7 @@
 import {useState} from "react"
 import { CalendarRowByHead, CalendarRowByDays } from "./Calendar/index"
 import { useSelector } from "react-redux"
-import {getHolidayItem, isEqualDate} from "../utils"
+import {getHolidayItem, isEqualDate, toStringWithPad, toUTC} from "../utils"
 import { EventProps } from "@/app/types"
 
 const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
@@ -26,7 +26,23 @@ const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
   }
 
   const holidayItem = getHolidayItem(selectedDateByTime)
-  const eventItem : EventProps | undefined = eventList.find((el: EventProps) => isEqualDate(new Date(el.scheduleStartAt), selectedDateByTime))
+  const eventItem : EventProps | undefined = eventList.find((el: EventProps) => isEqualDate(toUTC(el.scheduleStartAt), selectedDateByTime))
+  let scheduleStartAtHours: String | null = null
+  let scheduleStartAtMinutes: String | null = null
+
+  let scheduleEndAtHours: String | null = null
+  let scheduleEndAtMinutes: String | null = null
+
+  if (eventItem) {
+    const {scheduleStartAt, scheduleEndAt } = eventItem
+
+    scheduleStartAtHours = toStringWithPad(toUTC(scheduleStartAt)?.getHours(),2, "0") ?? null
+    scheduleStartAtMinutes = toStringWithPad(toUTC(scheduleStartAt)?.getMinutes(), 2, "0") ?? null
+
+
+    scheduleEndAtHours = toStringWithPad(toUTC(scheduleEndAt)?.getHours(),2, "0") ?? null
+    scheduleEndAtMinutes = toStringWithPad(toUTC(scheduleEndAt)?.getMinutes(), 2, "0") ?? null
+  }
 
   return (
     <div className="flex justify-start text-gray-800 w-full">
@@ -82,8 +98,8 @@ const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
               <div className="flex text-base">
                 <button type="button" className="flex items-center justify-start w-full gap-2 px-4 py-2 text-gray-100 bg-indigo-400 rounded-md">
                   <span className="text-base flex flex-col justify-start items-start">
-                    <div>{`${String(new Date(eventItem.scheduleStartAt)?.getHours()).padStart(2, "0")}:${String(new Date(eventItem.scheduleStartAt).getMinutes())?.padStart(2, "0")}`}</div>
-                    <div>{`${String(new Date(eventItem?.scheduleEndAt)?.getHours()).padStart(2, "0")}:${String(new Date(eventItem?.scheduleEndAt).getMinutes())?.padStart(2, "0")}`}</div>
+                    <div>{`${scheduleStartAtHours}:${scheduleStartAtMinutes}`}</div>
+                    <div>{`${scheduleEndAtHours}:${scheduleEndAtMinutes}`}</div>
                   </span>
                   <span className="w-1 h-full bg-purple-500 rounded-sm"></span>
                   <span className="text-base">{`${eventItem.agentCompanyClientCompanyRelation.clientCompanyMaster.clientCompanyName} - ${eventItem.jobChangeProcess.jobChangeProcessName}`}</span>

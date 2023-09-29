@@ -13,15 +13,21 @@ const getHolidayItem = (targetDate: Date) => {
           .find(el => isEqualDate(new Date(el.start.date), targetDate))
 }
 
-const getEventItem = (targetDate: Date) => {
-  return event
-          .items
-          .find(el => isEqualDate(new Date(el.start.dateTime), targetDate))
+const toUTC = (date: String | Date) => {
+  if (typeof date === "string" ) {
+    return new Date(date.replace("Z",""))
+  }
+  return new Date(String(date).replace("Z",""))
+}
+
+const toStringWithPad = (obj:any, maxLength:number, fillString: string) => {
+  return String(obj).padStart(maxLength, fillString)
 }
 
 
 export {
   isEqualDate,
   getHolidayItem,
-  getEventItem,
+  toUTC,
+  toStringWithPad
 }

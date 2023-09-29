@@ -1,4 +1,5 @@
 import {AgentDataProps} from "@/app/types";
+import {toUTC} from "@/app/utils";
 const AgentData = ({eventStatus, id}: AgentDataProps) => {
     return (
         <td key={id} className="border text-[6px] w-10">
@@ -7,7 +8,7 @@ const AgentData = ({eventStatus, id}: AgentDataProps) => {
                     <span className="flex w-2.5 h-2.5 bg-blue-600 rounded-full mr-1.5 flex-shrink-0"></span>
                 </span>
                 <div>
-                    <label htmlFor="green-checkbox" className="text-[6px] text-gray-900">({new Date(eventStatus.scheduleStartAt).toLocaleDateString("en-ZA")})</label>
+                    <label htmlFor="green-checkbox" className="text-[6px] text-gray-900">({toUTC(eventStatus.scheduleStartAt).toLocaleDateString("en-ZA")})</label>
                 </div>
             </div>
         </td>
