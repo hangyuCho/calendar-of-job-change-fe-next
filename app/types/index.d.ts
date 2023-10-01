@@ -12,7 +12,7 @@ interface DummyRowProps {
 interface EventProps {
   id: 1,
   scheduleStartAt: Date,
-  scheduleEndAt: Date,
+  scheduleEndAt?: Date,
   jobChangeProcess: {
     id: number,
     jobChangeProcessName: string

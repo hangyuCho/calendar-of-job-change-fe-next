@@ -4,7 +4,7 @@ import {useState} from "react"
 import { CalendarRowByHead, CalendarRowByDays } from "./Calendar/index"
 import { useSelector } from "react-redux"
 import { EventProps } from "@/app/types"
-import EventList from "@/app/components/Calendar/Event/EventList";
+import EventButtonList from "@/app/components/Calendar/Event/EventButtonList";
 
 const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
   let [currentDate, setCurrentDate] = useState(new Date())
@@ -23,7 +23,6 @@ const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
     nextMonthDate.setMonth(nextMonthDate.getMonth() + 1)
     setCurrentDate(nextMonthDate)
   }
-
 
   return (
       <div className="flex justify-start text-gray-800 w-full">
@@ -62,7 +61,7 @@ const Calendar = ({eventList} : { eventList: Array<EventProps> } ) => {
               <CalendarRowByDays currentDate={currentDate} eventList={eventList}/>
             </div>
           </div>
-          <EventList selectedDate={selectedDate} eventList={eventList}/>
+          <EventButtonList selectedDate={selectedDate} eventList={eventList}/>
           <div className="hidden">
             <div className="flex h-16 rounded-md w-[14.3%] justify-center font-bold text-base"></div>
             <div className="text-black rounded-md"></div>
