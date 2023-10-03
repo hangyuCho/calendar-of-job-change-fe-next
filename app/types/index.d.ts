@@ -12,7 +12,7 @@ interface DummyRowProps {
 interface EventProps {
   id: 1,
   scheduleStartAt: Date,
-  scheduleEndAt: Date,
+  scheduleEndAt?: Date,
   jobChangeProcess: {
     id: number,
     jobChangeProcessName: string
@@ -78,8 +78,53 @@ interface ScheduleProps {
   targetDate:Date
 }
 
+interface GoogleCalendarProps {
+  kind: string,
+  etag: string,
+  summary: string,
+  description: string,
+  updated: string,
+  timeZone: string,
+  accessRole: string,
+  defaultReminders: [],
+  nextSyncToken: string,
+  items: [
+    {
+      kind: string,
+      etag: string,
+      id: string,
+      status: string,
+      htmlLink: string,
+      created: Date,
+      updated: Date,
+      summary: string,
+      description: string,
+      creator: {
+        email: string,
+        displayName: string,
+        self: true
+      },
+      organizer: {
+        email: string,
+        displayName: string,
+        self: true
+      },
+      start: {
+        date: Date
+      },
+      end: {
+        date: Date
+      },
+      transparency: string,
+      visibility: string,
+      iCalUID: string,
+      sequence: number,
+      eventType: string
+    }
+  ]
+}
+
 export {
-  type CalendarProps,
   type CalendarRowByDaysProps,
   type ScheduleProps,
   type EventScheduleProps,
@@ -88,5 +133,6 @@ export {
   type DummyRowProps,
   type AgentRowProps,
   type AgentDataProps,
-  type JobChangeProcessProps
+  type JobChangeProcessProps,
+  type GoogleCalendarProps
 };
